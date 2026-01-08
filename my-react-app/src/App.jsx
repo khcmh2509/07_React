@@ -7,6 +7,7 @@ import Exam2 from './components/Exam2'
 import Exam3 from './components/Exam3'
 import Exam4 from './components/Exam4'
 import Exam5 from './components/Exam5'
+import TodoList from './components/TodoList'
 
 function App() {
   // 상태 (state)
@@ -26,7 +27,8 @@ function App() {
         && 앞에있는 showExam이 true 면 Exam1 렌더링됨
                           false 면 Exam1 렌더링 되지 않음
       */}
-      <Exam5 />
+      {/* <Exam5 /> */}
+      <TodoList />
     </>
   )
 }
