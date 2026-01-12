@@ -8,6 +8,8 @@ import Exam3 from './components/Exam3'
 import Exam4 from './components/Exam4'
 import Exam5 from './components/Exam5'
 import TodoList from './components/TodoList'
+import Exam6 from './components/Exam6'
+import Exam7 from './components/Exam7'
 
 function App() {
   // 상태 (state)
@@ -28,7 +30,8 @@ function App() {
                           false 면 Exam1 렌더링 되지 않음
       */}
       {/* <Exam5 /> */}
-      <TodoList />
+      {/* <TodoList /> */}
+      <Exam7 />
     </>
   )
 }
